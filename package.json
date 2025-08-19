@@ -6,14 +6,9 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
-		"b": "opennextjs-cloudflare build",
-		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
+		"lint": "next lint"
 	},
 	"dependencies": {
-		"@opennextjs/cloudflare": "/Users/dario/Repos/opennextjs-cloudflare/packages/cloudflare",
 		"next": "15.3.5",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
@@ -22,7 +17,8 @@
 		"@types/node": "^20.19.10",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"typescript": "^5",
-		"wrangler": "^4.28.1"
+		"eslint": "9.33.0",
+		"eslint-config-next": "15.4.7",
+		"typescript": "^5"
 	}
 }
